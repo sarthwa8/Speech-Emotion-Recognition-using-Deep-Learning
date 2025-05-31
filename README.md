@@ -1,13 +1,15 @@
-Speech Emotion Recognition
-A simple web app that predicts emotions from speech audio using a deep learning model. Users can upload or record audio clips, and the app predicts the speaker’s emotion.
+# Speech Emotion Recognition 🎤🧠
 
-Features
-Predicts 8 emotions: angry, calm, disgust, fearful, happy, neutral, sad, surprised
+A web app that detects human emotions from speech audio using deep learning.  
+Upload or record audio clips and get instant emotion predictions like *happy*, *sad*, *angry*, and more.
 
-Uses MFCC features extracted from audio clips
+---
 
-Deep learning model built with TensorFlow / Keras
+## 🚀 Features
 
-Simple, interactive UI built with Gradio for uploading or recording audio
-
-Supports WAV and other common audio formats
+- Supports **8 emotion classes**:  
+  `angry`, `calm`, `disgust`, `fearful`, `happy`, `neutral`, `sad`, `surprised`
+- Uses **MFCC (Mel Frequency Cepstral Coefficients)** for audio feature extraction
+- Deep learning model built with **TensorFlow / Keras**
+- Interactive and user-friendly UI powered by **Gradio**
+- Accepts recorded or uploaded audio files (WAV and common formats)
